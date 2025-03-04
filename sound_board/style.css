@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+
+body {
+  background-color: rgb(161, 100, 223);
+  font-family: 'Roboto', serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.btn {
+  background-color: #663399;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1.2rem 2.7rem;
+  font-size: 1.2rem;
+  margin: 0.8rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn:active {
+  transform: scale(0.98);
+}
